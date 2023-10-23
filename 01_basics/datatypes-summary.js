@@ -51,3 +51,18 @@ console.log(typeof  outsideTemp)
 
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//Assignement :
+/* Explain all the return type of the above datatype  */
+
+
+/*
+  undefined is a type have only one value that is undefined and when any variable is empty then this value is assign in it.
+  null is a type have only one value that is null
+  boolean type have two value 1 is true and other is false.
+  String is a datatype have a 16-bit capacity.
+  number type have a 4-bit capacity and range is -2 to power 31 to 2 to power 31 -1;
+  
+
+*/
