@@ -66,3 +66,37 @@ console.log(typeof  outsideTemp)
   
 
 */
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory are of two types -:
+
+//(1) : Stack (Primitive)  , (2) : Heap (Non-Primitive)
+
+/*
+   (a) : Stack is used with Primitive datatype & Heap is used with Non-Primitive datatype.
+   (b) : When Stack memory is used then whatever you declared variable you get the copy of that variable.
+   (c) : When Heap memory is used then whatever you declared variable you get the refrence of that variable.
+        Ex- 
+*/
+//      For stack --->
+    let myYoutubename = "abc.@youtube.com"
+
+    let anothername = myYoutubename
+    anothername = "chaiorcode"
+   
+    console.log(myYoutubename)
+    console.log(anothername)
+//      For heap --->
+    let userOne = {
+        email : "user@google.com" ,
+        upi : "user@ybl"
+
+    }
+
+    let userTwo = userOne
+
+    userTwo.email = "hitesh@google.com"
+
+    console.log(userOne.email)
+    console.log(userTwo.email)
+
